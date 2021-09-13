@@ -6,6 +6,7 @@ public class MyArrayList<T extends Comparable<T>> {
     private int capacity;
     private final int DEFAULT_CAPACITY = 10;
 
+
     public MyArrayList(int capacity) {
         if (capacity <= 0) {
             throw new IllegalArgumentException("capacity <= 0");

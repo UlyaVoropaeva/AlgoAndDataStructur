@@ -35,6 +35,7 @@ public class Main {
         System.out.println("Bubble sort finished. Time: " + (finish.getTime() - start.getTime()));
     }
 
+
     public static MyArrayList<Integer> arrayCreator() {
         Random r = new Random();
         MyArrayList<Integer> mal = new MyArrayList<>(100000);
