@@ -25,7 +25,7 @@ public class MyArrayList<T extends Comparable<T>> {
     }
 
     private void preCheckLoadFactor() {
-        if (capacity * 0.75 < (size+1)) {
+        if (capacity * 0.75 < (size + 1)) {
             createBiggerArray();
         }
     }

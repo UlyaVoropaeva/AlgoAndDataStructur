@@ -11,28 +11,28 @@ public class Main {
         Date start = new Date();
         arrayCreator().selectionSort();
         Date finish = new Date();
-        System.out.println("Selection sort finished. Time: " + (finish.getTime()- start.getTime()));
+        System.out.println("Selection sort finished. Time: " + (finish.getTime() - start.getTime()));
         System.out.println();
 
         System.out.println("Insertion sort begin");
         start = new Date();
         arrayCreator().insertionSort();
         finish = new Date();
-        System.out.println("Insertion sort finished. Time: " + (finish.getTime()- start.getTime()));
+        System.out.println("Insertion sort finished. Time: " + (finish.getTime() - start.getTime()));
         System.out.println();
 
         System.out.println("Optimized bubble sort begin");
         start = new Date();
         arrayCreator().bubbleSortOptimized();
         finish = new Date();
-        System.out.println("Optimized bubble sort finished. Time: " + (finish.getTime()- start.getTime()));
+        System.out.println("Optimized bubble sort finished. Time: " + (finish.getTime() - start.getTime()));
         System.out.println();
 
         System.out.println("Bubble sort begin");
         start = new Date();
         arrayCreator().bubbleSort();
         finish = new Date();
-        System.out.println("Bubble sort finished. Time: " + (finish.getTime()- start.getTime()));
+        System.out.println("Bubble sort finished. Time: " + (finish.getTime() - start.getTime()));
     }
 
     public static MyArrayList<Integer> arrayCreator() {
@@ -43,5 +43,5 @@ public class Main {
         }
 
         return mal;
-}
+    }
 }
